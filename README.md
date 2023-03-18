@@ -26,5 +26,3 @@ Para crear un archivo .gitignore debemos crear un archivo de texto y asignarle e
 Para crear un archivo **.gitignore global** debemos ejecutar el siguiente comando "git config --global core.excludesfile ~/.gitignore_global", el cual creara el archivo ~/.gitignore_global.
 Este archivo se edita de la misma manera con la cual editamos el archivo .gitignore local.
 Con este archivo lograremos que todos nuestros repositorios Git ignoren los archivo y carpetas especificadas en el .gitignore global.
-
-
