@@ -9,6 +9,5 @@ int main(){
    printf("Direccion de memoria de la variable: %d\n", &num);
    printf("Direccion de memoria del puntero: %d\n", &pnum);
    printf("Tamano de memoria de la variable: %d", sizeof(num));
-   
    return 0;
 }
