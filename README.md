@@ -51,11 +51,11 @@ Esto se puede hacer por diferentes fines, como por ejemplo por privacidad, segur
 
 Para crear un archivo .gitignore debemos crear un archivo de texto y asignarle el nombre ".gitignore", y luego editarlo de manera tal que cada linea del archivo tenga un archivo o carperta que quieramos que Git ignore.
 
-    * Utilizamos * (asterisco) para referirnos a todos los archivos de ese tipo. Ejemplo: *.txt (ignoramos todos los archivos con la extension .txt).
+    *Utilizamos * (asterisco) para referirnos a todos los archivos de ese tipo. Ejemplo: *.txt (ignoramos todos los archivos con la extension .txt).
 
-    * Utilizamos / para referirnos a una ruta. Ejemplo: ejercicio1/ (ignoramos los archivos que estan dentro de la carpeta ejercicio1).
+    *Utilizamos / para referirnos a una ruta. Ejemplo: ejercicio1/ (ignoramos los archivos que estan dentro de la carpeta ejercicio1).
 
-    * Y utilizamos # para agregar comentarios en el archivo.
+    *Y utilizamos # para agregar comentarios en el archivo.
 
 #### **.gitignore global**
 
@@ -68,5 +68,4 @@ Con este archivo lograremos que todos nuestros repositorios Git ignoren los arch
 
 El apartado 1 y 2 nos da el mismo resultado porque el puntero almacena la direccion de memoria de la variable.
 
->>>>>>> 861314ebf8420c9cc7f626a84a0a842241b3df95
 En el apartado 3 no obtenemos el mismo resultado, porque este nos da como resultado la direccion del espacio de memoria en la que se encuentra el puntero.
